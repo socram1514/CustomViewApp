@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LoginView">
+        <attr name="showRestartPass" format="boolean" />
+        <attr name="loginColor" format="color"/>
+        <attr name="showLabelTop" format="boolean" />
+        <attr name="stringLabelTop" format="string" />
+        <attr name="stringLabelUser" format="string"/>
+        <attr name="stringLabelPass" format="string"/>
+        <attr name="stringLabelBtnAccess" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="SimpleLoginView">
+        <attr name="showRestartPass1" format="boolean" />
+        <attr name="stringLabelUser1" format="string"/>
+        <attr name="stringLabelPass1" format="string"/>
+        <attr name="stringLabelBtnAccess1" format="string"/>
+        <attr name="inputtype" format="enum">
+                <enum name="TEXT" value="0"/>
+                <enum name="EMAIL" value="1"/>
+                <enum name="NUMBER" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>

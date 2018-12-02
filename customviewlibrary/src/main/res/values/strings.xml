@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CustomViewLibrary</string>
+
+    <string name="lbl_msj_ingreso">Debe ingresar su usuario y constraseña</string>
+    <string name="lbl_usuario">USUARIO</string>
+    <string name="lbl_password">CONTRASEÑA</string>
+    <string name="lbl_ver_pass">Ver Contraseña</string>
+    <string name="lbl_olv_pass"><u>Olvide mi contraseña</u></string>
+    <string name="lbl_ingresar">INGRESAR</string>
+    <string name="lbl_text_vacio">Debe ingresar un usuario valido</string>
+    <string name="lbl_valid_email">Debe ingresar un correo electronico valido</string>
+    <string name="lbl_pass_vacio">Debe ingresar una constraseña valida</string>
+
+    <string name="msj_toast_err_login">Usuario o Contraseña incorrecto</string>
+</resources>
