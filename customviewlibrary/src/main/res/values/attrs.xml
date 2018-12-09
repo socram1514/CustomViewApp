@@ -21,4 +21,9 @@
                 <enum name="NUMBER" value="2"/>
         </attr>
     </declare-styleable>
+
+    <declare-styleable name="CustomRounedEditText">
+        <attr name="showTitle" format="boolean" />
+        <attr name="stringTitle" format="string" />
+    </declare-styleable>
 </resources>
