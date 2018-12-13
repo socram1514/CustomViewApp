@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edtNrosFact1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:maxLength="3"
+        android:inputType="number"
+        android:gravity="top|right"
+        android:background="@drawable/edittext_selector">
+    </EditText>
+
+    <EditText
+        android:id="@+id/edtNrosFact2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:maxLength="3"
+        android:inputType="number"
+        android:gravity="top|right"
+        android:background="@drawable/edittext_selector">>
+    </EditText>
+
+    <EditText
+        android:id="@+id/edtNrosFact3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:maxLength="7"
+        android:inputType="number"
+        android:gravity="top|right"
+        android:background="@drawable/edittext_selector">>
+    </EditText>
+
+</LinearLayout>
