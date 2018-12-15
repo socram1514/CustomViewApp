@@ -17,6 +17,8 @@ public class CustomRounedEditText extends LinearLayout {
 
     private boolean mshowTitle;
     private String title;
+    private int cpadding;
+    private boolean enableEditable;
 
     public CustomRounedEditText(Context context) {
         super(context);
@@ -29,6 +31,8 @@ public class CustomRounedEditText extends LinearLayout {
         try {
             mshowTitle = a.getBoolean(R.styleable.CustomRounedEditText_showTitle, true);
             title = a.getString(R.styleable.CustomRounedEditText_stringTitle);
+            cpadding = a.getInt(R.styleable.CustomRounedEditText_cpadding,10);
+            enableEditable = a.getBoolean(R.styleable.CustomRounedEditText_enableEditable, true);
         }finally {
             a.recycle();
         }
@@ -53,6 +57,17 @@ public class CustomRounedEditText extends LinearLayout {
         }else{
             txttitulo.setVisibility(VISIBLE);
             txttitulo.setText(title);
+        }
+
+        float density = getContext().getResources().getDisplayMetrics().density;
+        int paddingPixel = (int)(cpadding * density);
+        edtCuadroTxt.setPadding(0,paddingPixel,0,0);
+
+        if(!enableEditable){
+            edtCuadroTxt.setClickable(false);
+            edtCuadroTxt.setCursorVisible(false);
+            edtCuadroTxt.setFocusable(false);
+            edtCuadroTxt.setFocusableInTouchMode(false);
         }
 
         asignarEventos();

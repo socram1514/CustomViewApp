@@ -25,5 +25,7 @@
     <declare-styleable name="CustomRounedEditText">
         <attr name="showTitle" format="boolean" />
         <attr name="stringTitle" format="string" />
+        <attr name="cpadding" format="integer" />
+        <attr name="enableEditable" format="boolean" />
     </declare-styleable>
 </resources>
