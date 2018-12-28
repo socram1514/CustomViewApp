@@ -12,4 +12,22 @@
     <string name="lbl_pass_vacio">Debe ingresar una constraseña valida</string>
 
     <string name="msj_toast_err_login">Usuario o Contraseña incorrecto</string>
+
+    <string name="telefonia_sufijos">Elija sufijo</string>
+    <string-array name="telefonia_sufijo_arrays">
+        <item>098</item>
+        <item>097</item>
+        <item>096</item>
+        <item>099</item>
+    </string-array>
+
+    <string-array name="numero_arrays">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
 </resources>
