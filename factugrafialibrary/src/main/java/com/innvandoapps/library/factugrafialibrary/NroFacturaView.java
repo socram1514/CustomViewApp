@@ -36,7 +36,7 @@ public class NroFacturaView extends LinearLayout {
     }
 
     public String getNroFactura(){
-        return edtNrosFact1.getText().toString() + edtNrosFact2.getText().toString() + edtNrosFact3.getText().toString();
+        return edtNrosFact1.getText().toString() + "-" + edtNrosFact2.getText().toString() + "-" +edtNrosFact3.getText().toString();
     }
 
     public String getNroEstablecimiento(){
